@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Student Fee</title>
+  <link rel="stylesheet" href="DashboardFee.css" />
+
+  <!-- Font Awesome CDN Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+</head>
+
+<body>
+
+  <div class="container">
+    <nav>
+        <ul>
+            <li class="logo">
+              <span class="nav-item">Dashboard</span>
+            </li>
+            <li class="logo01">
+              <img src="Person.png" alt="Student">
+            </li>
+            <li class="logo02">
+              <span class="nav-item1">Eswar Pothuri</span><br>
+              <span class="nav-item2">pothurisubbaraju2004@gmail.com</span>
+            </li>
+
+            <li><a href="DashboardHome.html">
+              <i class="fas fa-home"></i>
+              <span class="nav-item">Home</span>
+            </a></li>
+            <li><a href="DashboardProfile.html">
+              <i class="fas fa-user"></i>
+              <span class="nav-item">Profile</span>
+            </a></li>
+            <li><a href="">
+              <i class="fas fa-wallet"></i>
+              <span class="nav-item">Fee</span>
+            </a></li>
+            
+            <li><a href="index.html" class="logout">
+              <i class="fas fa-sign-out-alt"></i>
+              <span class="nav-item">Log out</span>
+            </a></li>
+          </ul>
+    </nav>
+
+      <section class="Main-Fee">
+        <h1>Student Fee History</h1>
+        <div class="Fee-box">
+          <div class="Fee01">
+            <table>
+              <tr>
+                <td> Name :</td>
+                <td class="text"> Eswar Pothuri </td>
+              </tr>
+              <tr>
+                <td>  Email :</td>
+                <td class="text"> pothurisubbaraju2004@gmail.com </td>
+              </tr>
+              <tr>
+                <td>  ID Number :</td>
+                <td class="text"> 12109448 </td>
+              </tr>
+              <tr>
+                <td>  Class :</td>
+                <td class="text"> Grade 10 </td>
+              </tr>
+              <tr>
+                <td>  Term :</td>
+                <td class="text"> 1st Term </td>
+              </tr>
+              <tr>
+                <td>  Fee Full Amount :</td>
+                <td class="text"> Rs. 90,000.00 </td>
+              </tr>
+            </table>
+          </div>
+          <div class="Fee02">
+            <p class="item1">Fee's Paid Status :</p>
+            <p class="item2"> Partially Paid</p>
+            <div class="status">
+              <div class="outer">
+                <div class="inner">
+                  <div id="number">
+
+                  </div>
+                </div>
+              </div>
+
+              <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                <defs>
+                   <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="#6495e6" />
+                      <stop offset="100%" stop-color="#673ab7" />
+                   </linearGradient>
+                </defs>
+                <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+              </svg>
+
+            </div>
+          </div>
+        </div>
+        <div class="Fee-table">
+          <table>
+            <tr>
+              <th>Fee's Paid Date</th>
+              <th>Paid Amount</th>
+              <th>Paid Method</th>
+              <th>Balance Amount to be Paid</th>
+            </tr>
+            <tr>
+              <td>10-04-2022</td>
+              <td> Rs.40,000.00 </td>
+              <td> Online </td>
+              <td> Rs.40,000.00 </td>
+            </tr>
+          </table>
+        </div>
+      </section>
+    </section>
+  </div>
+</body>
+</html>
